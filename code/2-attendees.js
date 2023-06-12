@@ -18,6 +18,15 @@ function attendees() {
 }
 
 function make2() {
-  // copy and paste your code here when you get to the Make step
+  let numOfNumbers = prompt('How many numbers do you wanna add?')
   
+  let count = 0
+  let total = 0
+  while (count < numOfNumbers) {
+    let whatever = prompt('Nek number;')
+    total = total + whatever
+    count = count + 1
+  }
+
+  alert('total' + total)
 }
