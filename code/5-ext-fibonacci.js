@@ -7,12 +7,18 @@ function fibonacci() {
   let a = 0
   alert(a)
   let b = 1
+  if (maximum >= b){
   alert(b)
-
-  while (maximum > b) {
+}
+  while (maximum >= b) {
     a = a + b
-    alert(a)
+  if (maximum >= a){
+  alert(a)
+}  
+
     b = b + a
-    alert(b)
+if (maximum >= b){
+  alert(b)
+}    
   }
 }
