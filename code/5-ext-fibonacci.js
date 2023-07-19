@@ -12,13 +12,12 @@ function fibonacci() {
 }
   while (maximum >= b) {
     a = a + b
-  if (maximum >= a){
-  alert(a)
-}  
-
+    if (maximum >= a){
+      alert(a)
+    }  
     b = b + a
-if (maximum >= b){
-  alert(b)
-}    
+    if (maximum >= b){
+      alert(b)
+    }    
   }
 }

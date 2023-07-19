@@ -4,8 +4,9 @@
 
 function liftOff() {
   let count = 10
+  let blassOff = 0
 
-  while(count > 0) {
+  while(count > blassOff) {
     alert(count + '...')
     count = count - 1
   }

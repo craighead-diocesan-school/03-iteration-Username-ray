@@ -12,5 +12,5 @@ function factorial() {
     count = count - 1
   }
 
-  alert('The factorial of' + factorial + 'is' + total)
+  alert('The factorial of ' + factorial + ' is ' + total + '.')
 }

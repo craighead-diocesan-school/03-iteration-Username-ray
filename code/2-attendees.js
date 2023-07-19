@@ -8,7 +8,7 @@ function attendees() {
   let attendeeList = ''
   
   while (count < numOfAttendees) {
-    let attendee = prompt()
+    let attendee = prompt('Who is in attendance today?')
     attendeeList = attendeeList + attendee
     attendeeList = attendeeList + ', '
     count = count + 1
